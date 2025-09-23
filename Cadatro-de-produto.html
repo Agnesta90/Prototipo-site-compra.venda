@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cadastro de Produto</title>
+   <link rel="stylesheet" href="style/cadastro.css">
+   <link rel="shortcut icon" href="imagens/Logo.webp" type="image/x-icon">
+   <script src="script/cadastro.js"></script>
+</head>
+<body>
+   <header id="cabeca"><a href="index.html"><img src="imagens/Logo.webp" alt="" width="100px"> <img src="imagens/text1.webp" alt="" width="180px" class="text"></a></header>
+   <main class="main">
+      <article>
+         <h2>Nome do Produto</h2>
+         <input type="text" tabindex="0">
+         <h2>Descrição</h2>
+         <textarea name="" id="" style="height: 100px; width: 100%; padding: 3px;"></textarea>
+         <h2>Categoria</h2>
+            <label for="item">
+               <input type="text" name="item" id="item" list="listItem" style="padding: 3px; width: 100%;">
+               <datalist id="listItem">
+                  <option >Eletrônico</option>
+                  <option >Veiculo</option>
+                  <option >Roupa</option>
+                  <option >Movel</option>
+               </datalist>
+            </label>
+         <h2>Valor</h2>
+         <input type="text" tabindex="0">
+      </article>
+      <div id="img" >
+         <label for="produto" tabindex="0" > 
+            <input type="file" id="produto" accept="image/*" name="produto">
+            <span class="image-produto"></span>
+         </label>
+      </div>
+      <p>O Anúncio deve durar</p>
+      <span id="i24"><input type="radio" name="timer" id=""> 24h</span> <span id="i7"><input type="radio" name="timer" id=""> 7 dias</span><span id="i15"> <input type="radio" name="timer" id=""> 15 dias </span><span id="i30"><input type="radio" name="timer" id=""> 30 dias</span>
+
+      <a href="perfil.html" style="grid-area: 6/5/7/6;"><button>Enviar</button></a>
+   </main>
+</body>
+</html>

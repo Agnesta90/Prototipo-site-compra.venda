@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@font-face {
+   font-family: "Quicksand";
+   src: url("fonts/Quicksand_Bold_Oblique.otf") type('opentupe');
+}
+*{
+   margin: 0%;
+   padding: 0%;
+   font-family: "Quicksand";
+   
+}
+
+body{
+   width: 100vw;
+   height: 100vh;
+   overflow-x: hidden;
+}
+.header{
+   background-color: #10403B;
+   display: grid;
+   grid-template-columns: 2fr 268px 30px 350px 1fr 47px 1fr 95px 1fr 40px 1fr 25px 1fr 50px 1fr 24px 2fr;
+   padding: 10px;
+   align-items: center;
+}
+#imgUser{
+   width: 25px;
+   height: 25px;
+   background-color: #ffffff;
+   border-radius: 50%;
+   padding: 13px;
+}
+#imgUser>img{
+   width: 100%;
+   
+}
+
+.busca{
+   background-color: white;
+   height: 32px;
+   width: 333px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 24px;
+   grid-column: 4/5;
+   padding-right: 10px;
+}
+.busca> input{
+   width: 89%;
+   height: 30px;
+   border: 1px solid white;
+   font-size: 20px;
+   border-radius: 20px 0px 0px 20px;
+   padding-left: 8px;
+   margin-right: 10px;
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+nav{
+   height: 38px;
+   align-items: center;
+}
+nav>a{
+   padding: 10px;
+   align-content: center;
+}
+nav a:hover{
+   color: rgb(255, 255, 255);
+   background-color: #10403B;
+   box-shadow: 0px 0px 1px 1px rgba(26, 26, 26, 0.274);
+   padding: 10px;
+}
+#logo{
+   grid-column: 2/3;
+   display: flex;
+}
+#logo>img{
+   width: 50%;
+}
+.login{
+   grid-column: 6/7;
+}
+.cadastro{
+   grid-column: 8/9;
+}
+.compra{
+   grid-column: 10/11;
+}
+.sino{
+   grid-column: 12/13;
+}
+.user{
+   grid-column: 14/15;
+}
+.ajuda{
+   grid-column: 16/17;
+}
+nav{
+   background-color: #127369;
+   display: flex;
+   justify-content: space-around;
+   padding-right: 20%;
+   padding-left: 20%;
+}
+nav>a{
+   padding: 5px;
+}
+
+.imagem{
+   height: 230px;
+   width: 230px;
+   margin: 5px;
+   display: flex;
+   align-items: end;
+   justify-content: center;
+}
+.imagem > img{
+   width: 100%;
+}

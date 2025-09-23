@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Anúncio</title>
+   <link rel="shortcut icon" href="imagens/Logo.webp" type="image/x-icon">
+   <link rel="stylesheet" href="style/cabeca.css">
+   <link rel="stylesheet" href="style/anucios.css">
+   <script src="script/enviarvalor.js"></script>
+</head>
+<body>
+   <header class="header" style="grid-column: 1/-1;">
+      <div id="logo"><img src="imagens/Logo.webp" alt="logo do site" style="width: 100px;" ><img src="imagens/text1.webp" alt="" style="width: 150px; height: 35px; margin-left: 10px; align-self: center;"></div><div class="busca"><input type="text"><a href="pesquisa.html"><img src="imagens/icon-busca.webp" alt=""></a></div><a href="#" class="login"><p>Entrar</p></a></a><a href="cadastrar-conta.html" class="cadastro"><p>Criar conta</p></a><a href="#" class="compra"><img src="imagens/icon-compras.webp" alt=""></a><a href="#" class="sino"><img src="imagens/icon-sino.webp" alt=""></a><a href="perfil.html" class="user"><div id="imgUser"><img src="imagens/icon-user.webp" alt=""></div></a><a href="#" class="ajuda"><img src="imagens/icon-help.webp" alt=""></a>
+   </header>
+   <nav id="menu">
+      <a href="index.html"><p>Início</p></a><a href="#"><p>Eletrônicos</p></a><a href="#"><p>Móveis</p></a></a><a href="#"><p>Roupas</p></a><a href="#"><p>Veículos</p></a>
+   </nav>
+   <main id="principal">
+      <div id="first"><img src="imagens/celular.png" alt=""></div>
+      <div id="text2">
+         <h2>Celular Lux 23H</h2><h2>R$ 800,00</h2>
+      </div>
+      <div id="second">
+         <section id="um">
+            <button onclick="fazerlance()">Fazer Lance</button><p>Tempo restante do anúncio</p>
+            <section id="contador" >
+               <span id="hora">24</span>:<span id="minutos">00</span>:<span id="segundos">00</span>
+            </section>
+         </section>
+         <section id="dois" style="background-color: #353e3d;">
+            <span>
+               <input type="radio" name="opcao" id=""  checked>
+               <p>Tenho interesse</p>
+            </span>
+            <input type="text" placeholder="Digite o valor" id="valor">
+            <span>
+               <input type="radio" name="opcao" id="" >
+               <p>Tenho interesse, mas não quero pagar</p>
+            </span>
+            <button onclick="enviar()" style="background-color: #8AA6A3;">Enviar</button>
+         </section>
+         <section id="tres" style="background-color: #8AA6A3";>
+            <span id="resposta"></span>
+            <button style="margin-top:10px; background-color: #942a15ff;font-weight: 600" onclick="cancelar()">Cancelar</button>
+         </section>
+      </div>
+      <article id="inform">
+         <h3>Detalhes do produto</h3><p style="font-weight: 800;">Localização</p><p>Recife-PE</p><p style="font-weight: 800;">Detalhes</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+      </article>
+   </main>
+   <h2>Produtos semelhantes</h2>
+   <article id="img">
+         <div class="imagem"><img src="imagens/celular.png" alt=""></div>
+         <div class="imagem"><img src="imagens/celular.png" alt=""></div>
+         <div class="imagem"><img src="imagens/celular.png" alt=""></div>
+         <div class="imagem"><img src="imagens/celular.png" alt=""></div>
+         <div class="imagem"><img src="imagens/celular.png" alt=""></div>
+         <div class="imagem"><img src="imagens/celular.png" alt=""></div>
+         <div class="imagem"><img src="imagens/celular.png" alt=""></div>
+         <div class="imagem"><img src="imagens/celular.png" alt=""></div>      
+   </article>
+   <footer></footer>
+</body>
+</html>

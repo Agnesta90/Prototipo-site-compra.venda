@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Leilão</title>
+   <link rel="shortcut icon" href="imagens/Logo.webp" type="image/x-icon">
+   <link rel="stylesheet" href="style/cabeca.css">
+   <link rel="stylesheet" href="style/vendas.css">
+   <script src="script/oferta.js"></script>
+   
+</head>
+<body>
+   <header class="header" style="grid-column: 1/-1;">
+      <div id="logo"><img src="imagens/Logo.webp" alt="logo do site" style="width: 100px;" ><img src="imagens/text1.webp" alt="" style="width: 150px; height: 35px; margin-left: 10px; align-self: center;"></div><div class="busca"><input type="text"><a href="pesquisa.html"><img src="imagens/icon-busca.webp" alt=""></a></div><a href="#" class="login"><p>Entrar</p></a></a><a href="cadastrar-conta.html" class="cadastro"><p>Criar conta</p></a><a href="#" class="compra"><img src="imagens/icon-compras.webp" alt=""></a><a href="#" class="sino"><img src="imagens/icon-sino.webp" alt=""></a><a href="perfil.html" class="user"><div id="imgUser"><img src="imagens/icon-user.webp" alt=""></div></a><a href="#" class="ajuda"><img src="imagens/icon-help.webp" alt=""></a>
+   </header>
+   <nav>
+      <a href="index.html"><p>Inicio</p></a>
+      <a href="#"><p>Eletrônicos</p></a><a href="#"><p>Móveis</p>
+      </a></a><a href="#"><p>Roupas</p></a><a href="#"><p>Veículos</p></a>
+   </nav>
+   <main id="principal">
+      <main id="Produto">
+         <div id="imagem" ><img src="imagens/sofa.jpg" alt="" style="width: 100%;"></div>
+         <div style="display: flex; justify-content: space-between;">
+            <h2>Sófa cinza</h2>
+            <h2>R$ 800,00</h2>
+         </div>
+         <div style="margin-top: 10px; ">
+            <h3>Detalhes do produto</h3><p style="font-weight: 800;">Localização</p><p> Águas Belas-PE </p><p style="font-weight: 800;">Detalhes</p><p>Está em um bom estado. Só tem 3 anos de uso</p>
+         </div>
+      </main>
+      <main id="ofertas">
+         <article id="titulo" style="justify-items: center; background-color: #127369;"><h2>Ofertas</h2></article>
+         <article id="oferta1" >
+            <section class="user" >
+               <div class="img"><img src="imagens/icon-user.webp" alt=""></div><p>Arielly Chalegre</p><p style="margin-left: auto;" > R$ 500,00</p>
+            </section>
+            <section class="aparece">
+               <button style="background-color: #127369; color: white" onclick="aceitar(1)">Aceitar oferta</button><button  style="background-color: #BFBFBF;" onclick="recusar(1)">Recusar</button>
+            </section>
+         </article>
+         <article id="oferta2" >
+            <section class="user">
+               <div class="img"><img src="imagens/icon-user.webp" alt=""></div><p>Emille Da Costa </p><p style="margin-left: auto;"> R$ 450,00</p>
+            </section>
+            <section class="aparece">
+               <button style="background-color: #127369; color: white" onclick="aceitar(2)">Aceitar oferta</button><button style="background-color: #BFBFBF;" onclick="recusar(2)">Recusar</button>
+            </section>
+         </article>
+         <article id="oferta3">
+            <section class="user">
+               <div class="img"><img src="imagens/icon-user.webp" alt=""></div><p>Erinaldo Martins</p><p style="margin-left: auto;"> R$ 400,00</p>
+            </section>
+            <section class="aparece">
+               <button style="background-color: #127369; color: white" onclick="aceitar(3)">Aceitar oferta</button><button style="background-color: #BFBFBF;" onclick="recusar(3)">Recusar</button>
+            </section>
+         </article>
+          <article id="oferta4">
+            <section class="user">
+               <div class="img"><img src="imagens/icon-user.webp" alt=""></div><p>Luis Eduardo</p><p style="margin-left: auto;"> R$ 390,00</p>
+            </section>
+            <section class="aparece">
+               <button style="background-color: #127369; color: white" onclick="aceitar(4)">Aceitar oferta</button><button style="background-color: #BFBFBF;" onclick="recusar(4)">Recusar</button>
+            </section>
+         </article>
+         <article id="oferta5">
+            <section class="user">
+               <div class="img"><img src="imagens/icon-user.webp" alt=""></div><p>Nerivaldo Martins</p><p style="margin-left: auto;"> R$ 275,00</p>
+            </section>
+            <section class="aparece">
+               <button style="background-color: #127369; color: white" onclick="aceitar(5)">Aceitar oferta</button><button style="background-color: #BFBFBF;" onclick="recusar(5)">Recusar</button>
+            </section>
+         </article>
+         <article id="oferta6">
+            <section class="user">
+               <div class="img"><img src="imagens/icon-user.webp" alt=""></div><p>Yasmin Lima</p><p style="margin-left: auto;"> R$ 00,00</p>
+            </section>
+            <section class="aparece">
+               <button style="background-color: #127369; color: white" onclick="aceitar(6)">Aceitar oferta</button><button style="background-color: #BFBFBF;" onclick="recusar(6)">Recusar</button>
+            </section>
+         </article>
+      </main>
+   </main>
+</body>
+</html>

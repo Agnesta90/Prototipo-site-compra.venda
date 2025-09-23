@@ -1,0 +1,53 @@
+#principal{
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+}
+#Produto{
+   width: 350px;
+   margin-right: 10%;
+}
+#Produto p{
+   margin-top: 10px;
+}
+#ofertas{
+   width: 350px;
+   border-radius: 10px;
+   overflow: hidden;
+   border: 1px solid black;
+   background-color: #5ae9da;
+}
+
+article{
+   padding: 10px;
+   background-color: #5ae9da;
+}
+.user{
+   display: flex;
+   align-items: center;
+}
+.aparece{
+   margin-top: 10px;
+   display: none;
+}
+article:hover .aparece {
+   display: block;
+}
+button{
+   padding: 5px;
+   border-radius: 5px;
+   margin-right: 5px;
+}
+.user > .img{
+   width: 24px;
+   height: 26px;
+   border-radius: 50%;
+   padding: 15px;
+   padding: 10px;
+   background-color:#ffffff;
+   margin-right: 10px ;
+}
+.img img{
+   width: 25px;
+   height: 25px;
+}
