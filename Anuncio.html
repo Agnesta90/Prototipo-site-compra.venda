@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +8,15 @@
    <link rel="stylesheet" href="style/cabeca.css">
    <link rel="stylesheet" href="style/anucios.css">
    <script src="script/enviarvalor.js"></script>
+   <script src="script/entrar.js"></script>
 </head>
 <body>
-   <header class="header" style="grid-column: 1/-1;">
-      <div id="logo"><img src="imagens/Logo.webp" alt="logo do site" style="width: 100px;" ><img src="imagens/text1.webp" alt="" style="width: 150px; height: 35px; margin-left: 10px; align-self: center;"></div><div class="busca"><input type="text"><a href="pesquisa.html"><img src="imagens/icon-busca.webp" alt=""></a></div><a href="#" class="login"><p>Entrar</p></a></a><a href="cadastrar-conta.html" class="cadastro"><p>Criar conta</p></a><a href="#" class="compra"><img src="imagens/icon-compras.webp" alt=""></a><a href="#" class="sino"><img src="imagens/icon-sino.webp" alt=""></a><a href="perfil.html" class="user"><div id="imgUser"><img src="imagens/icon-user.webp" alt=""></div></a><a href="#" class="ajuda"><img src="imagens/icon-help.webp" alt=""></a>
+   <header class="header" >
+      <div id="logo"><img src="imagens/Logo.webp" alt="logo do site" class="logo1"><img class="text" src="imagens/text1.webp" alt="" style="width: 150px; height: 35px; margin-left: 10px; align-self: center;"></div><div class="busca"><input type="text"><a href="#"><img src="imagens/icon-busca.webp" alt=""></a></div> <span class="menu"> <img src="imagens/menu.webp" alt="" style="width: 25px;"></span><a href="#" class="login"><p>Entrar</p></a></a><a href="cadastrar-conta.html" class="cadastro"><p>Criar conta</p></a><a href="#" class="compra"><img src="imagens/icon-compras.webp" alt=""></a><a href="#" class="sino"><img src="imagens/icon-sino.webp" alt=""></a><a href="perfil.html" class="user"><div id="imgUser"><img src="imagens/icon-user.webp" alt=""></div></a><a href="#" class="ajuda"><img src="imagens/icon-help.webp" alt=""></a>
    </header>
    <nav id="menu">
-      <a href="index.html"><p>Início</p></a><a href="#"><p>Eletrônicos</p></a><a href="#"><p>Móveis</p></a></a><a href="#"><p>Roupas</p></a><a href="#"><p>Veículos</p></a>
-   </nav>
+      <a href="index.html" class="inicio"><p>Início</p></a><a href="#"><p>Eletrônicos</p></a><a href="#"><p>Móveis</p></a></a><a href="#"><p>Roupas</p></a><a href="#"><p>Veículos</p></a>
+   </nav> 
    <main id="principal">
       <div id="first"><img src="imagens/celular.png" alt=""></div>
       <div id="text2">
@@ -30,7 +31,7 @@
          </section>
          <section id="dois" style="background-color: #353e3d;">
             <span>
-               <input type="radio" name="opcao" id=""  checked>
+               <input type="radio" name="opcao" id="">
                <p>Tenho interesse</p>
             </span>
             <input type="text" placeholder="Digite o valor" id="valor">
@@ -49,7 +50,7 @@
          <h3>Detalhes do produto</h3><p style="font-weight: 800;">Localização</p><p>Recife-PE</p><p style="font-weight: 800;">Detalhes</p><p> Semi novo. Só com 6 meses de uso. </p>
       </article>
    </main>
-   <h2>Produtos semelhantes</h2>
+   <h2 class="ui">Produtos semelhantes</h2>
    <article id="img">
          <div class="imagem"><img src="imagens/celular.png" alt=""></div>
          <div class="imagem"><img src="imagens/celular.png" alt=""></div>
